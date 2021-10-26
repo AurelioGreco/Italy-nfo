@@ -1,0 +1,41 @@
+@media (min-width: 576px) {
+    .noi-col-img {
+        height: 31.25em;
+    }
+}
+
+@media (min-width: 768px) {
+    .navbar {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .navbar-brand {
+        flex-direction: row;
+        margin-bottom: 0;
+    }
+
+    .tienda {
+        display: flex;
+        gap: 1em;
+    }
+
+    .card {
+        max-width: 33.33%;
+    }
+
+    .noi {
+        flex-direction: row;
+    }
+
+    .noi-col-img {
+        order: 1;
+        flex: 1 1 0;
+    }
+
+    .noi-col-text {
+        order: 2;
+        flex: 1 1 0;
+    }
+
+}

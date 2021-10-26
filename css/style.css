@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400;500&display=swap');
+
+:root {
+    --primary: #067302;
+    --secondary: #055902;
+    --danger: #8C0707;
+    --info: #0000ff;
+    --dark: #000000;
+    --white: #ffffff;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'Raleway',
+        sans-serif;
+}
+
+/* Riutilizzabili - Inizio*/
+.container {
+    width: 80%;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.btn {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 0.5em;
+    margin: 0 0.1em;
+    border-radius: 0.5em;
+}
+
+.btn-dark {
+    color: var(--white);
+    background-color: var(--dark);
+}
+
+.btn-hover:hover {
+    opacity: 0.7;
+}
+
+/* Riutilizzabili - Fine */
+
+.bg-header {
+    background-image: url('../img/cover-italy-nfo.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 18.75em;
+}
+
+.bg-navbar {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 1.5em 0;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.navbar-brand {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 2rem;
+    color: var(--white);
+    text-decoration: none;
+    font-weight: 500;
+    margin-bottom: 1em;
+}
+
+.navbar-brand img {
+    width: 2em;
+
+}
+
+.navbar-nav {
+    background-color: rgba(0, 0, 0, 0.9);
+    padding: 1em;
+    border-radius: 0.5em;
+}
+
+.nav-link {
+    display: inline-block;
+    padding: 0.7em;
+    text-decoration: none;
+    color: var(--white);
+}
+
+.nav-link:hover {
+    color: var(--dark);
+    background-color: var(--white);
+    border-radius: 0.5em;
+    font-weight: bold;
+}
+
+.main {
+    margin-top: -2em;
+    padding: 0.3em;
+    background-color: var(--white);
+    border-radius: 0.5em;
+}
+
+.main-title {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+/* CARD - Inizio*/
+.card {
+    overflow: hidden;
+    border-radius: 0.5em;
+    margin-bottom: 1em;
+}
+
+.card1 {
+    background-color: var(--primary);
+    color: var(--white);
+}
+
+.card2 {
+    background-color: var(--white);
+    font-weight: 500;
+}
+
+.border {
+    border: 1px solid var(--dark);
+    border-radius: 0 0 0.5em 0.5em;
+    margin-top: -4px;
+}
+
+.card3 {
+    background-color: var(--danger);
+    color: var(--white);
+}
+
+.card-img {
+    width: 100%;
+}
+
+.bg-green:hover {
+    opacity: 0.8;
+}
+
+.bg-white:hover {
+    opacity: 0.8;
+}
+
+.bg-red:hover {
+    opacity: 0.8;
+}
+
+.card-body {
+    padding: 1em;
+}
+
+.card-body h5 {
+    font-size: 1.5rem;
+    margin: 1em 0;
+    font-weight: 500;
+}
+
+.card-body p {
+    font-weight: 200;
+}
+
+/* CARD - Fine*/
+
+/* Noi - Inizio */
+
+.noi {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1em;
+    background-color: var(--info);
+    border-radius: 0.5em;
+}
+
+.noi-col-img {
+    order: 2;
+    background: url('../img/noi.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 21.875em;
+    width: 100%;
+}
+
+.noi-col-text {
+    order: 1;
+}
+
+.noi-body {
+    padding: 1em;
+    color: var(--white);
+    text-align: center;
+}
+
+.noi-body h2 {
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.noi-body p {
+    font-weight: 300;
+}
+
+/* Noi - Fine */
+
+/* footer */
+
+.bg-footer {
+    background-color: var(--dark);
+    color: var(--white);
+}
+
+.bg-footer p {
+    margin: 0;
+    padding: 1em 0;
+    text-align: center;
+}
